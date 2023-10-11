@@ -64,6 +64,7 @@ def signal_handler(sig, frame):
 # Register the signal handler
 signal.signal(signal.SIGINT, signal_handler)
 
+print()
 print("------------------------")
 print("| Python Traffic Light |")
 print("------------------------")
